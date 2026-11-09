@@ -1,0 +1,59 @@
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border:1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+        font-size: 45px;
+        font-weight: bolder;
+}
+.color-orange{  
+    color: #FD6E0A;
+}
+.nav-menu{
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    Align-items: center;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-color: white;
+
+
+}
